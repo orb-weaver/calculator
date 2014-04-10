@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator</title>
+    <link rel='stylesheet' href='calculator2.css' type='text/css'>
+  </head>
+  <body>
+    <div id='calculatorBody'>
+      <div id='displaySection'>
+        <input type='text' id='display' name='display' readonly value='0.'>
+      </div>
+      <div id='buttonRow1' class='buttonRow'>
+        <input type='button' id='C' name='C' value='C' class='numberButton' onmouseout='this.style.backgroundColor="#000000"' onmouseover='this.style.backgroundColor="#00cccc"'>
+        <input type='button' id='CE' name='CE' value='CE' class='numberButton'>
+        <input type='button' id='plusMinus' name='plusMinus' value='+/-' class='numberButton'>
+        <input type='button' id='backspace' name='backspace' value='BSP' class='numberButton'>
+        <input type='button' id='close' name='close' value='X' class='numberButton'>
+      </div>
+      <div id='buttonRow2' class='buttonRow'>
+        <input type='button' id='num7' name='num7' value='7' class='numberButton' onMousedown='this.style.backgroundColor="#00cccc"' onMouseup='this.style.backgroundColor="#000000"'>
+        <input type='button' id='num8' name='num8' value='8' class='numberButton'onmousedown='this.style.backgroundColor="#00ccff"' onmouseup='this.style.backgroundColor="#000000"'>
+        <input type='button' id='num9' name='num9' value='9' class='numberButton'>
+        <input type='button' id='opMult' name='opMult' value='*' class='numberButton'>
+        <input type='button' id='opSqrt' name='opSqrt' value='&radic;' class='numberButton'>
+      </div>
+      <div id='buttonRow3' class='buttonRow'>
+        <input type='button' id='num4' name='num4' value='4' class='numberButton'>
+        <input type='button' id='num5' name='num5' value='5' class='numberButton'>
+        <input type='button' id='num6' name='num6' value='6' class='numberButton'>
+        <input type='button' id='opDiv' name='opDiv' value='/' class='numberButton'>
+        <input type='button' id='opSq' name='opSq' value='x&sup2;' class='numberButton'>
+      </div>
+      <div id='buttonRow4' class='buttonRow'>
+        <input type='button' id='num1' name='num1' value='1' class='numberButton'>
+        <input type='button' id='num2' name='num2' value='2' class='numberButton'>
+        <input type='button' id='num3' name='num3' value='3' class='numberButton'>
+        <input type='button' id='opPlus' name='opPlus' value='+' class='numberButton'>
+        <input type='button' id='opRecip' name='opRecip' value='1/X' class='numberButton'>
+      </div>
+      <div id='buttonRow5' class='buttonRow'>
+        <input type='button' id='num0' name='num0' value='0' class='numberButton'>
+        <input type='button' id='opPoint' name='opPoint' value='.' class='numberButton'>
+        <input type='button' id='opEqual' name='opEqual' value='=' class='numberButton'>
+        <input type='button' id='opMinus' name='opMinus' value='-' class='numberButton'>
+        <input type='button' id='opPercent' name='opPercent' value='%' class='numberButton'>
+      </div>
+      <div id='buttonRow6' class='buttonRow'>
+        <input type='button' id='MC' name='MC' value='MC' class='numberButton'>
+        <input type='button' id='MR' name='MR' value='MR' class='numberButton'>
+        <input type='button' id='MS' name='MS' value='MS' class='numberButton'>
+        <input type='button' id='M+' name='M+' value='M+' class='numberButton'>
+        <input type='button' id='M-' name='M-' value='M-' class='numberButton'>
+      </div>
+    </div>
+  </body>
+</html>
